@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{65BEA83C-4982-4CB2-8E03-F62124FB7753}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WorkFlow</RootNamespace>
+    <AssemblyName>WorkFlow</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnonymizeAlgortimClass.cs" />
+    <Compile Include="BuildFlowTreeForVSClass.cs" />
+    <Compile Include="BuildTreeForMVSClass.cs" />
+    <Compile Include="CheckDuplicateClass.cs" />
+    <Compile Include="CheckLocalSupClass.cs" />
+    <Compile Include="CompareClass.cs" />
+    <Compile Include="ComputeqClass.cs" />
+    <Compile Include="Copy of CompareClass.cs" />
+    <Compile Include="Copy of UtilityClass.cs" />
+    <Compile Include="FIndMaxClass.cs" />
+    <Compile Include="GenerateQClass.cs" />
+    <Compile Include="GetFileBuildFlowGraph.cs" />
+    <Compile Include="GetLKClass.cs" />
+    <Compile Include="InputClass.cs" />
+    <Compile Include="LTClass.cs" />
+    <Compile Include="LTPairs.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainProgram.cs" />
+    <Compile Include="MforPClass.cs" />
+    <Compile Include="MVS.cs" />
+    <Compile Include="MVSTMandTMPrimClass.cs" />
+    <Compile Include="MVSTreeClass.cs" />
+    <Compile Include="MVSTreeCounterClass.cs" />
+    <Compile Include="MVSTreeRemoveCheckedClass.cs" />
+    <Compile Include="PforLocalCheckClass.cs" />
+    <Compile Include="PrintClass.cs" />
+    <Compile Include="PrintDataClass.cs" />
+    <Compile Include="ProgBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgBar.Designer.cs">
+      <DependentUpon>ProgBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoveSuperSeqClass.cs" />
+    <Compile Include="RemoveVprimFromPClass.cs" />
+    <Compile Include="RemoveVPrimFromVTClass.cs" />
+    <Compile Include="ScorClass.cs" />
+    <Compile Include="SelfJoinClass.cs" />
+    <Compile Include="SelfJoinForGeneratingQClass.cs" />
+    <Compile Include="SuppresAllPfromTClass.cs" />
+    <Compile Include="SuppresPfromTmClass.cs" />
+    <Compile Include="UpdateScoreClass.cs" />
+    <Compile Include="UtilityClass.cs" />
+    <Compile Include="VprimAddVpClass.cs" />
+    <Compile Include="VprimClass.cs" />
+    <Compile Include="VPrimForAnonymizeAlgortihmClass.cs" />
+    <Compile Include="VPrimVClass.cs" />
+    <Compile Include="VS.cs" />
+    <Compile Include="WriteFile.cs" />
+    <Compile Include="WVClass.cs" />
+    <Compile Include="WVforLocalSuppClass.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgBar.resx">
+      <DependentUpon>ProgBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
