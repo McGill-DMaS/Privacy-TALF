@@ -1,5 +1,5 @@
 # TALF
-Anonymizing trajectory data for passenger flow analysis [TRC 2014] - anonymize trajectory data by using local suppression for flowgraph analysis
+Anonymizing trajectory data for passenger flow analysis [TRC 2014]
 
 Copyright 2013 Moein Ghasemzadeh and Benjamin C. M. Fung
 
