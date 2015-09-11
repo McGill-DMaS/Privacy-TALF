@@ -1,7 +1,9 @@
 # TALF
 Anonymizing trajectory data for passenger flow analysis [TRC 2014]
 
-Copyright 2013 Moein Ghasemzadeh and Benjamin C. M. Fung
+License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
+
+Owners: Moein Ghasemzadeh and Benjamin C. M. Fung
 
 Publication:
 
